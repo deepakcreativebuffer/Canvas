@@ -1,0 +1,10 @@
+.container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 30vh;
+  margin-left: 30vw;
+}
+.container > div > p {
+  text-align: start;
+}

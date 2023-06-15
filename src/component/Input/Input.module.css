@@ -1,0 +1,13 @@
+.inputSection > input {
+  height: 3vh;
+  width: 35vw;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  position: relative;
+  padding: 0px 10px;
+}
+.inputSection > img {
+  position: absolute;
+  margin-top: 1vh;
+  margin-left: -30px;
+}

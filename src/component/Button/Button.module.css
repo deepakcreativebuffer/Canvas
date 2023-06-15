@@ -1,0 +1,9 @@
+.button {
+  width: 3vw;
+  height: 3vh;
+  background: linear-gradient(0deg, blue, #d0d5dd);
+  border-color: rgb(140, 140, 224);
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+}
