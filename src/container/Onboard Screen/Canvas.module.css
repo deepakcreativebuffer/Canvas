@@ -1,0 +1,31 @@
+.zoom_container {
+  transform: scale(var(--zoom-level));
+  transform-origin: top left;
+  width: 2000px;
+  height: 1000px;
+  position: relative;
+  overflow: scroll;
+}
+.button_container {
+  position: absolute;
+  left: 20px; /* Adjust the desired left position */
+  top: 20px; /* Adjust the desired top position */
+  transform: scale(1);
+  transform-origin: top left;
+}
+
+/* .button_container button {
+  transform: scale(calc(1 / var(--zoom-level)));
+  transform-origin: top left;
+} */
+
+.component_container {
+  width: 1000px;
+  height: 900px;
+  position: relative;
+  transform: translateZ(0);
+}
+.zoom_btn {
+  position: fixed;
+  right: 0;
+}

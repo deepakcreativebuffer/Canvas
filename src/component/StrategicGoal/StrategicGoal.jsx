@@ -6,22 +6,17 @@ const StrategicGoal = ({
   handleTextChange,
   draggingComponentId,
 }) => {
-  //on double click on the screen the new component and the component will be editable to write and change the text inside the component
   return (
     <>
       <div
+        className={classes.component}
         style={{
-          position: "absolute",
           transform: `translate(${component.x}px, ${component.y}px)`,
-          width: "200px",
-          height: "200px",
-          background: "#9747FF",
-          cursor: "move",
           willChange: "transform",
         }}
         onMouseDown={(e) => handleMouseDown(e, component)}
       >
-        <input
+        {/* <input
           type="text"
           value={component.text}
           onChange={(e) => handleTextChange(e, component)}
@@ -36,7 +31,8 @@ const StrategicGoal = ({
             outline: "none",
           }}
           readOnly={draggingComponentId !== null}
-        />
+        /> */}
+        <p className={classes.text}>{component.text}</p>
         {/* <div className={classes.component_text}></div> */}
       </div>
       <div className={classes.component_avatar}></div>

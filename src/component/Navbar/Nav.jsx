@@ -18,12 +18,12 @@ const Navbar = () => {
           <img src={logo} alt="logo" />
           <img src={menu} alt="menu" />
         </div>
-        <div className="text">
-          <div className={classes.projectTitle}>
-            <p>Untitled Project</p>
-            <img src={angledown} alt="angledown" />
-          </div>
+        {/* <div className="text"> */}
+        <div className={classes.projectTitle}>
+          <p>Untitled Project</p>
+          <img src={angledown} alt="angledown" />
         </div>
+        {/* </div> */}
         <div className={classes.avtar}>
           <img src={comment} alt="comment" />
           <img src={notification} alt="notification" />

@@ -2,6 +2,9 @@
 export { default as Navbar } from "../component/Navbar/Nav";
 export { default as Button } from "../component/Button/Button";
 export { default as Input } from "../component/Input/Input";
+export { default as StrategicGoal } from "../component/StrategicGoal/StrategicGoal";
+export { default as ButtonGroups } from "../component/ButtonGroup/ButtonGroups";
+export { default as ZoomButton } from "../component/ButtonGroup/ZoomButton";
 
 //Images
 export { default as avatar } from "../assets/Avatar.png";

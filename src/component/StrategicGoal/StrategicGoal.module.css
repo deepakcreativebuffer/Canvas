@@ -1,0 +1,12 @@
+.component {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: #9747ff;
+  cursor: move;
+}
+.text {
+  width: 100%;
+  overflow-wrap: break-word;
+  font-size: 14px;
+}
